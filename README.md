@@ -3,6 +3,8 @@
 Google Assistant talking smart mirror; I created this project based upon ideas I had seen on the internet. This was a fun project to learn new skills. It is interactive through
 the use of Google Assistant; the calendar on screen can be updated real time by voice and it can talk to you while you brush your hair.
 
+![juliette in the mirror](https://github.com/jmrocco/smart-mirror/blob/master/images/smart_mirror.jpg)
+
 ## How it was made
 
 The mirror consists of two-way glass, a Raspberry Pi, and a monitor. The entire frame was built from scratch by hand. The Raspberry Pi runs an image of Raspbian that allows for vocal recognition.
@@ -12,7 +14,10 @@ account services, this assistant is setup to behave like other Google Assistant 
 The Raspberry Pi also runs a mirror module to create a user interace that replicates a real mirror but with interactive features. This module does not run automatically on start-up but is 
 controlled by `mm.sh`.
 
--- insert image here--
+### Pictures from the building stage
+![building frame](https://github.com/jmrocco/smart-mirror/blob/master/images/building.jpg)
+
+![monitor addition](https://github.com/jmrocco/smart-mirror/blob/master/images/monitor.jpg)
 
 ### Google Assistant
 
@@ -24,7 +29,7 @@ The Google AIY Kit included a microphone and voice HAT board for vocal recogniti
 The open source [MagicMirror](https://github.com/MichMich/MagicMirror) module creates a mirror interface. `config.js` is the configuration that I created for my mirror; I display my calendar, the date, weather, and an dog graphic.
 There are many other modules available to customize your mirror interface. See the associated link for instructions on how to download and use the module.
 
-## Future Improvements
+## Future improvements
 
 - Addition of lights to activate whenever Google speaks.
 - Music playing capabilities; the current voice HAT only supports voice-over.
